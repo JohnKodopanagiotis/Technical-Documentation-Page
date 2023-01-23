@@ -1,0 +1,45 @@
+@media only screen and (max-width: 815px) {
+}
+header {
+  font-weight: bold;
+  font-size: 21px;
+  padding: 10px;
+}
+pre {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 2%;
+}
+.main {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 350px;
+}
+#navbar {
+  list-style: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 300px;
+  min-width: 290px;
+  border-right: 2.5px solid lightgray;
+}
+#navbar ul {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+}
+#navbar li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top: 2.5px solid lightgray;
+}
+#navbar a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
